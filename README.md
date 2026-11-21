@@ -1,4 +1,4 @@
-# pi-prompt-history-plus
+# pi-prompt-history-x
 
 Shell-style prompt history extension for pi.
 
@@ -11,9 +11,13 @@ If the change is merged upstream, prefer the original package.
 
 ## Install
 
+This fork is not published to npm. Install it from source on GitHub:
+
 ```bash
-pi install npm:pi-prompt-history-plus
+pi install git:github.com/Fracizz/pi-prompt-history-x@v0.3.0
 ```
+
+Leave off `@v0.3.0` to track the latest commit on `main` instead of the pinned release. Do not install it alongside `@ravshansbox/pi-prompt-history`; both bind Ctrl+R.
 
 Add `-l` to install it in project settings.
 

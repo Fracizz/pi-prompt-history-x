@@ -1,16 +1,17 @@
 {
-  "name": "pi-prompt-history-plus",
+  "name": "pi-prompt-history-x",
+  "private": true,
   "version": "0.3.0",
   "description": "Shell-style prompt history extension for pi, with skill-command and slash-prompt recall",
   "license": "MIT",
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Fracizz/pi-prompt-history.git"
+    "url": "git+https://github.com/Fracizz/pi-prompt-history-x.git"
   },
-  "homepage": "https://github.com/Fracizz/pi-prompt-history#readme",
+  "homepage": "https://github.com/Fracizz/pi-prompt-history-x#readme",
   "bugs": {
-    "url": "https://github.com/Fracizz/pi-prompt-history/issues"
+    "url": "https://github.com/Fracizz/pi-prompt-history-x/issues"
   },
   "keywords": [
     "pi-package",
@@ -44,8 +45,5 @@
   "files": [
     "index.ts",
     "src"
-  ],
-  "publishConfig": {
-    "access": "public"
-  }
+  ]
 }
