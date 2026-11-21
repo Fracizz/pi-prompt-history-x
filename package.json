@@ -1,16 +1,16 @@
 {
-  "name": "@ravshansbox/pi-prompt-history",
-  "version": "0.0.0",
-  "description": "Shell-style prompt history extension for pi",
+  "name": "pi-prompt-history-plus",
+  "version": "0.3.0",
+  "description": "Shell-style prompt history extension for pi, with skill-command and slash-prompt recall",
   "license": "MIT",
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ravshansbox/pi-prompt-history.git"
+    "url": "git+https://github.com/Fracizz/pi-prompt-history.git"
   },
-  "homepage": "https://github.com/ravshansbox/pi-prompt-history#readme",
+  "homepage": "https://github.com/Fracizz/pi-prompt-history#readme",
   "bugs": {
-    "url": "https://github.com/ravshansbox/pi-prompt-history/issues"
+    "url": "https://github.com/Fracizz/pi-prompt-history/issues"
   },
   "keywords": [
     "pi-package",

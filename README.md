@@ -1,11 +1,18 @@
-# pi-prompt-history
+# pi-prompt-history-plus
 
 Shell-style prompt history extension for pi.
+
+This is a fork of [`@ravshansbox/pi-prompt-history`](https://github.com/ravshansbox/pi-prompt-history) by Ravshan, released under the same MIT licence. It adds one change, also proposed upstream in [ravshansbox/pi-prompt-history#7](https://github.com/ravshansbox/pi-prompt-history/pull/7):
+
+- skill invocations are recalled as `/skill:name args` in new sessions instead of being skipped;
+- prompts starting with `/` that were sent to the model are kept in history.
+
+If the change is merged upstream, prefer the original package.
 
 ## Install
 
 ```bash
-pi install npm:@ravshansbox/pi-prompt-history
+pi install npm:pi-prompt-history-plus
 ```
 
 Add `-l` to install it in project settings.
