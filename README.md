@@ -1,13 +1,10 @@
 # pi-prompt-history-x
 
-Shell-style prompt history extension for pi.
+**English** · [简体中文](README.zh-CN.md)
 
-This is a fork of [`@ravshansbox/pi-prompt-history`](https://github.com/ravshansbox/pi-prompt-history) by Ravshan, released under the same MIT licence. It adds one change, also proposed upstream in [ravshansbox/pi-prompt-history#7](https://github.com/ravshansbox/pi-prompt-history/pull/7):
+Recall past pi prompts with ↑/↓ or search them with Ctrl+R. This fork also recalls skill invocations as `/skill:name args` and keeps slash prompts that were sent to the model.
 
-- skill invocations are recalled as `/skill:name args` in new sessions instead of being skipped;
-- prompts starting with `/` that were sent to the model are kept in history.
-
-If the change is merged upstream, prefer the original package.
+[Install](#install) · [Keyboard shortcuts](#usage) · [Upstream change](https://github.com/ravshansbox/pi-prompt-history/pull/7)
 
 ## Install
 
@@ -19,7 +16,7 @@ pi install git:github.com/Fracizz/pi-prompt-history-x@v0.3.0
 
 Leave off `@v0.3.0` to track the latest commit on `main` instead of the pinned release. Do not install it alongside `@ravshansbox/pi-prompt-history`; both bind Ctrl+R.
 
-Add `-l` to install it in project settings.
+Add `-l` to install it in project settings. Open a new interactive pi session in a folder with previous sessions and press Ctrl+R to search those prompts.
 
 ## Usage
 
@@ -44,3 +41,7 @@ Pi loads the extension from `./index.ts`. When pi starts, it loads the user prom
 npm install
 npm run check
 ```
+
+## Upstream and licence
+
+Forked from [Ravshan's pi-prompt-history](https://github.com/ravshansbox/pi-prompt-history) under the same [MIT licence](LICENSE). The skill and slash-prompt recall change is also [proposed upstream](https://github.com/ravshansbox/pi-prompt-history/pull/7). If it is merged, prefer the original package.
